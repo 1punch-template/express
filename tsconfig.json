@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ES5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": false,
+    "preserveConstEnums": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "lib": ["ES2015"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
+  

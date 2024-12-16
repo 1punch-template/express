@@ -1,0 +1,41 @@
+{
+  "name": "express-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development 1punch dev",
+    "build": "1punch build",
+    "start": "1punch build && pm2 start pm2.config.js"
+  },
+  "sideEffects": false,
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@1punch/node": "*",
+    "@1punch/react": "*",
+    "@1punch/utils": "*",
+    "express": "^4.18.2",
+    "marked": "^13.0.2",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "sanitize-html": "^2.13.0",
+    "tldraw": "^3.4.1",
+    "zustand": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "babel-loader": "^9.1.3",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.10.0",
+    "sass-loader": "^14.1.1",
+    "style-loader": "^3.3.4",
+    "typescript": "^5.3.3",
+    "webpack-hot-middleware": "^2.26.1",
+    "webpack-node-externals": "^3.0.0",
+    "wrangler": "^3.45.0"
+  }
+}
